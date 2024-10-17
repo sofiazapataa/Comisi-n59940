@@ -1,0 +1,273 @@
+/*font-family:"Poppins", system-ui*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family:"Poppins", system-ui
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family:"Poppins", system-ui;
+    height: 100%;
+    width: 100%;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+    font-family:"Poppins", system-ui;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.374);
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.326);
+    letter-spacing: 2px;
+    font-family:"Poppins", system-ui
+    font-weight bold;
+    
+}
+.barra-abajo{
+   background-color: white;
+   color: black;
+   width: 100%;
+   display: flex;
+   text-align: center;
+   font-family:"Poppins", system-ui;
+   height: 100%;
+}
+.barra-abajo h2{
+    font-weight: bold;
+}
+.barra-abajo div p{
+    font-size: 40px;
+}
+nav a img{
+    justify-content: flex-start;
+    width: 3rem;
+    justify-content: space-around;
+}  
+nav img{
+    justify-content: flex-end;
+    width: 3rem;
+    justify-content: space-around;
+}
+.seccion-principal nav ul{
+    text-align: right;
+    font-weight: bolder;
+    color: white;
+    gap: 1.875rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.105);
+    align-items: center;
+}
+.seccion-secundaria{
+    width: 100px;
+    height: 31.25rem;
+    display: flex;
+    object-fit: contain;
+}
+.seccion-secundaria div h1{
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+}
+.seccion-secundaria section article div div{
+    background-color: rgba(255, 255, 255, 0.379);
+    color: white;
+    justify-content: center;
+}
+.seccion-secundaria h2{
+    font-size: 100%;
+}
+.seccion-secundaria h3{
+    text-align: left;
+    font-size: 80%;
+    color: white;
+    font-weight: bold;
+}
+.seccion-secundaria h4{ 
+    text-align: left;
+    font-size: 80%;
+    color: white;
+    font-weight: lighter;
+}
+.seccion-secundaria h1{
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 300%;
+    font-weight: bolder;
+    font-family:"Poppins", system-ui;
+    justify-content: center;
+    
+}
+.info-cards{
+    background-color: rgba(255, 255, 0, 0.196);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300%;
+    width: 300%;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.info-cards div h2{
+    color: yellow;
+}
+.info-cards div h4{ 
+    color: yellow;
+    font-weight: lighter;
+}
+.cards-ventas{
+    justify-content: space-around;
+}
+.cards-ventas img{
+    width: 14rem;
+}
+.cards-ventas div div{
+    background-color: rgba(255, 255, 0, 0.158);
+    color: yellow;
+    display: flex;
+}
+.cards-ventas div div button{
+    text-align: right;
+    color:yellow;
+    background-color: rgba(255, 255, 0, 0.463);
+    border: 0cap;
+    padding-top: 20px;
+    padding-right: 10px;
+    border-radius: 20px 20px;
+    box-shadow: 30%;
+}
+.cards-ventas h4{
+    font-weight: lighter;
+}
+.cards-ventas h3{
+    font-weight: bold;
+}
+.lugares p{
+    font-size: 100%;
+    text-align: center;
+    font-weight: lighter;
+    justify-content: center;
+}
+.lugares h4{
+    font-weight: lighter;
+    justify-content: center;
+}
+.lugares img{
+    background-color: white;
+    color: black;
+    width: 20rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+.info-del-programa{
+    background-color: rgba(0, 0, 0, 0.406)
+}
+.info-del-programa h2{
+    text-align: right;
+    font-weight: bold;
+}
+.info-del-programa p{
+    text-align: right;
+    font-weight: lighter;
+}
+.info-del-programa button{
+    text-align: right;
+    color:yellow;
+    background-color: rgba(255, 255, 0, 0.463);
+    border: 0cap;
+    border-radius: 20px 20px;
+    box-shadow: 30%;
+}
+.rectangulo-de-info{
+    text-align: left;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+}
+.rectangulo-de-info div p{
+    text-align: left;
+    font-weight: lighter;
+}
+.opiniones{
+    background-color: rgba(0, 0, 0, 0.406);
+}
+.opiniones div{
+    display: flex;
+    display: inline;
+    background-color: rgba(255, 255, 0, 0.144);
+    color: yellow;
+}
+.opiniones div div{
+    display: inline-block;
+}
+.opiniones h2{
+    font-weight: bold;
+}
+.opiniones h4{
+    font-weight: lighter;
+}
+.opiniones p{
+    font-weight: lighter;
+}
+.opiniones div div img{
+    background-image: url("../assets/estrella.png");
+    background-repeat: no-repeat;
+}
+.banner-tienda{
+    background-image: url("../assets/foto\ tienda.jpg");
+}
+.banner-tienda h1{
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 300%;
+    font-weight: bolder;
+    font-family:"Poppins", system-ui
+}
+.cards-tienda article{
+    background-color: rgba(255, 255, 0, 0.199);
+    color: yellow;
+}
+.cards-tienda h2{
+    color: yellow;
+    font-weight: bolder;
+}
+.cards-tienda p{
+    color: yellow;
+    font-weight: lighter;
+}
+.cards-tienda button{
+    text-align: right;
+    color:yellow;
+    background-color: rgba(255, 255, 0, 0.463);
+    border: 0cap;
+    border-radius: 20px 20px;
+    box-shadow: 30%;
+}
+.filtros div{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.322);
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 80%;
+}
